@@ -90,7 +90,7 @@ const FormComponent = () => {
 
     return (
         <div className="flex pt- w-full max-w-[450px] flex-col items-center justify-center gap-4 p-10 pt-0 sm:w-[480px] sm:p-10 sm:pt-0">
-            <img src={logo} alt="Logo" className="w-[50%] "/>
+            <img src={logo} alt="Logo" className="w-100"/>
             <form onSubmit={joinRoom} className="flex w-full  flex-col gap-2">
                 <input
                     type="text"
